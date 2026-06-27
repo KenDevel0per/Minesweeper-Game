@@ -1,1 +1,1 @@
-## [**Play to Minesweeper Game**](KenDevel0per.github.io/Minesweeper-Game/)
+## [**Play to Minesweeper Game v1.0**](kendevel0per.github.io/Minesweeper-Game/)
