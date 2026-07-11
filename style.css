@@ -89,10 +89,10 @@
             background: #e74c3c;
         }
         .cell.flagged::after {
-            content: '🚩';
+            content: '\01F6A9';
         }
         .cell.mine.revealed::after {
-            content: '💣';
+            content: '\01F4A3';
         }
         .cell.num-1 { color: #3498db; }
         .cell.num-2 { color: #27ae60; }
