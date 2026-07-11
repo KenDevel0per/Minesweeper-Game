@@ -155,7 +155,7 @@ const MINES_COUNT = 20;
                 gameOver = true;
                 clearInterval(timerInterval);
                 revealAllMines();
-                showMessage('Game over! 💥', 'lose');
+                showMessage('Game over! \u{1F4A5}', 'lose');
                 return;
             }
             updateCell(row, col);
@@ -203,7 +203,7 @@ const MINES_COUNT = 20;
             if (revealedCount === safeCells) {
                 gameOver = true;
                 clearInterval(timerInterval);
-                showMessage('Congratulations! You win! 🎉', 'win');
+                showMessage('Congratulations! You win! \u{1F389}', 'win');
                 for (let i = 0; i < BOARD_SIZE; i++) {
                     for (let j = 0; j < BOARD_SIZE; j++) {
                         if (board[i][j].isMine && !board[i][j].isFlagged) {  board[i][j].isFlagged = true;            updateCell(i, j);
